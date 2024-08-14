@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parties>
+    <party>
+        <date>2024-08-15</date>
+        <description>Sommerfest</description>
+        <location>Park</location>
+    </party>
+    <party>
+        <date>2024-09-05</date>
+        <description>Semesterstart-Party</description>
+        <location>Universität</location>
+    </party>
+    <party>
+        <date>2024-10-31</date>
+        <description>Halloween Party</description>
+        <location>Club</location>
+    </party>
+</parties>

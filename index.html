@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final abgaben</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+          <img class = "logo" src="img/logo.png" alt="logo"/>
+        <h1>Wichtige Informationen zu meinem Studium</h1>
+    </header>
+    <main>
+        <section id="why-study">
+            <h2 class="icon-header">Warum studiere ich?</h2>
+            <p>Ich habe mich für ein Studium an der Hochschule RheinMain entschieden, weil sie ein vielfältiges und praxisorientiertes Studienangebot bietet. Die gute Betreuung durch die Dozenten, die moderne Ausstattung und die zentrale Lage in Wiesbaden und Rüsselsheim sind weitere Pluspunkte. Zudem bieten die engen Kontakte zur regionalen Wirtschaft und die internationalen Austauschmöglichkeiten hervorragende Karrierechancen.</p>
+        </section>
+
+        <section id="locations">
+            <h2 class="icon-header">Anfahrt an die Hochschule</h2>
+            <p>Mit dem Auto:
+
+            <p>   -Von der A66, Ausfahrt Wiesbaden-Biebrich, über die Äppelallee und Schiersteiner Straße zur Straße "Unter den Eichen".</p>
+            <p>    Mit öffentlichen Verkehrsmitteln:</p>
+                
+            <p>   -Ab Hauptbahnhof Wiesbaden: Buslinien 3, 6 oder 28 bis Haltestelle "Nordfriedhof" (ca. 10-15 Minuten).</p>
+            <img src="img/map.png" alt="Lageplan">
+        </section>
+
+        <section id="parties">
+            <h2 class="icon-header">Parties</h2>
+            <h3>Parties erstellen</h3>
+            <form id="party-form">
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="description">Beschreibung:</label>
+                <input type="text" id="description" name="description" required>
+                <label for="location">Ort:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="submit">Termin hinzufügen</button>
+            </form>
+            <h3>Termine der nächsten Parties</h3>
+            <table id="party-table" >
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Event</th>
+                        <th>Ort</th>
+                        <th>Aktionen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            
+        </section>
+
+        <section id="students">
+            <h2 class="icon-header">3 Wichtige Kommilitonen</h2>
+            <div class="allstudents">
+            <div class="student">
+                <img src="img/student1.jpg" alt="Student 1">
+                <p>Student 1</p>
+            </div>
+            <div class="student">
+                <img src="img/student2.jpg" alt="Student 2">
+                <p>Student 2</p>
+            </div>
+            <div class="student">
+                <img src="img/student3.jpg" alt="Student 3">
+                <p>Student 3</p>
+            </div>
+        </div>
+        </section>
+
+        <section id="links">
+            <h2 class="icon-header">Links zu wichtigen Webseiten</h2>
+            <ul>
+                <li><a href="https://www.hs-rm.de/de/" target="_blank">HS RheinMain Website</a></li>
+                <li><a href="https://www.hs-rm.de/de/fachbereiche/design-informatik-medien/studiengaenge/medieninformatik-bsc" target="_blank">MI Website</a></li>
+                <li><a href="https://read.mi.hs-rm.de/login.php?target=&client_id=readmi&auth_stat=" target="_blank">Read MI</a></li>
+            </ul>
+        </section>
+
+        <section id="goals">
+            <h2 class="icon-header">Meine Ziele</h2>
+            <ul>
+                <li>Einen Notendurchschnitt von 1,5 oder höher erreichen <img src="img/checked.png"/></li>
+                <li>Innerhalb von 4 Jahren Ihren Abschluss machen <img src="img/unchecked.png"/></li>
+                <li>Mindestens 2 Programmiersprachen beherrschen <img src="img/checked.png"/></span></li>
+                <li>Deutschlandstipendium erhalten <img src="img/unchecked.png"/></li>
+                <li>Einem Studentenclub oder einer Studentenorganisation beitreten <img src="img/unchecked.png"/></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

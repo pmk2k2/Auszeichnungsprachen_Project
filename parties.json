@@ -1,0 +1,17 @@
+[
+    {
+        "date": "2024-07-10",
+        "description": "Sommerparty",
+        "location": "Strand"
+    },
+    {
+        "date": "2024-10-15",
+        "description": "Welcomesparty",
+        "location": "Park"
+    },
+    {
+        "date": "2024-12-24",
+        "description": "Weihnachtsparty",
+        "location": "Unter den Eichen 5"
+    }
+]
